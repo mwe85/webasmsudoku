@@ -3,3 +3,12 @@
   
   implementation goals
 ***/
+pub mod proto1{
+  pub mod BoardComponents{
+    struct RCSConstraint{
+      rows: [usize; 8],
+      cols: [usize; 8],
+      sqrs: [usize; 8]
+    }; 
+  }
+}
