@@ -9,6 +9,18 @@ pub mod proto1{
       rows: [usize; 8],
       cols: [usize; 8],
       sqrs: [usize; 8]
-    }; 
+    };
+    
+    /*type aliasing in rust*/
+    type HintCellConstraint = u16;
+
+    /***
+      needs to connect to other valid (empty) board cells across both within
+      its row, column and square. the traversal of the square has a specific order.
+    ***/
+    struct HintCell{
+      
+    }
   }
+
 }
