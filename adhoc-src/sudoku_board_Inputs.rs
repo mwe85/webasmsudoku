@@ -95,3 +95,8 @@ pub mod intermediate_boards{
 		0, 0, 0, 	7, 3, 0,	0, 0, 2
 	];
 }
+
+pub mod simple_boards{
+}
+
+
