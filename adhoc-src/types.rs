@@ -35,9 +35,15 @@ pub mod BoardTypes{
     pub type CellAddress = usize;
 
     pub struct Cell{
+        /// the address within the board that points to this cell
+        index: CellAddress,
+
         value: HintSet,
 
+        /// points to previous Cell with a hintset 
         row_prev: CellAddress,
+
+        /// points to the cell next to it (that is self.index < self.row_next)
         row_next: CellAddress,
         
         col_prev: CellAddress,
