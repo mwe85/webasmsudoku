@@ -1,9 +1,23 @@
 pub mod BoardTypes{
+
+    pub struct RCSConstraint{
+        rows: [usize; 9],
+        cols: [usize; 9],
+        sqs: [usize; 9]
+    }
+
+    impl RCSConstraint{
+        pub fn new(self){
+            //initialize all these arrays
+        }
+    }
+
     pub type HintSet = u32;
 
     //HintSet, because it is a primitive type, cannot have
     //an implementation. It needs an extension trait.
 
+    /*https://rust-lang.github.io/rfcs/0445-extension-trait-conventions.html*/
     trait HintSetEx{
        fn new(self) -> HintSet;
         fn isValue(self) -> bool;
