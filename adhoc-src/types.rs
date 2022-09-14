@@ -15,9 +15,22 @@ pub mod BoardTypes{
         fn isValue(self) -> bool{return false;}
     }
 
+    /**
+    *CellAddress e {0...80}
+    */
+    pub type CellAddress = usize;
 
     pub struct Cell{
+        value: HintSet,
+
+        row_prev: CellAddress,
+        row_next: CellAddress,
         
+        col_prev: CellAddress,
+        col_next: CellAddress,
+
+        sq_next: CellAddress,
+        sq_prev: CellAddress,
     }
 
     pub struct Board{
