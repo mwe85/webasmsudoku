@@ -11,3 +11,4 @@
     1. https://doc.rust-lang.org/rust-by-example/conversion/from_into.html
     2. https://doc.rust-lang.org/std/convert/trait.Into.html
     3. https://doc.rust-lang.org/src/core/convert/mod.rs.html#369-375
+    4. https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/book/first-edition/casting-between-types.html
