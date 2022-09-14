@@ -10,3 +10,4 @@
 1. ['as' keyword](https://doc.rust-lang.org/std/keyword.as.html)
     1. https://doc.rust-lang.org/rust-by-example/conversion/from_into.html
     2. https://doc.rust-lang.org/std/convert/trait.Into.html
+    3. https://doc.rust-lang.org/src/core/convert/mod.rs.html#369-375
